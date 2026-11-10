@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Muscle Building and Strength Gains\n\nHere is a one-day meal plan for an athlete aiming to build muscle and gain strength:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (200g), Fat (100g), Carbs (380g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Scrambled eggs (3 whole eggs, 150g) with whole wheat toast (80g), butter (10g), and orange juice (250ml).\n    * Protein: 22g, Fat: 18g, Carbs: 35g\n\n* **Mid-Morning Snack (10:00 AM):** Protein shake with whey protein powder (30g), banana (120g), oats (40g dry weight), and whole milk (240ml).\n    * Protein: 35g, Fat: 8g, Carbs: 50g\n\n* **Lunch (1:00 PM):** Grilled beef sirloin (180g) with brown rice (120g dry weight cooked), steamed sweet potato (150g), and olive oil drizzle (15g).\n    * Protein: 52g, Fat: 22g, Carbs: 75g\n\n* **Afternoon Snack (4:00 PM):** Greek yogurt (200g, full-fat) with granola (40g) and almonds (25g).\n    * Protein: 22g, Fat: 18g, Carbs: 45g\n\n* **Dinner (7:00 PM):** Baked chicken breast (200g) with pasta (100g dry weight) in tomato sauce (100g), olive oil (10g), and mixed vegetables (150g).\n    * Protein: 55g, Fat: 20g, Carbs: 85g\n\n* **Evening Snack (9:30 PM):** Cottage cheese (200g) with berries (80g) and honey (15g).\n    * Protein: 28g, Fat: 8g, Carbs: 30g\n\nThis meal plan prioritizes high-quality protein sources, complex carbohydrates, and healthy fats to support muscle growth, recovery, and strength development for your 85kg frame.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Muscle building and strength gains",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan contains exactly 4-5 meals distributed throughout the day",
+        "Each meal contains at least 30g of protein with total daily protein \u22652.5g per kg bodyweight (212.5g minimum)",
+        "Total daily calories support muscle building for an 85kg strength athlete (approximately 3000-3500 calories)",
+        "Meal plan is presented in compact, easy-to-read format suitable for quick reference"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) needing high protein distribution across meals and caloric density for muscle building"
+    },
+    "score": 6,
+    "reasoning": "The solution provides a well-formatted meal plan with all mandatory information clearly presented (daily calories, macros, foods with portions and timing). However, it contains a critical structural violation: the plan includes 6 eating occasions (breakfast, mid-morning snack, lunch, afternoon snack, dinner, evening snack) when the criteria explicitly require 4-5 meals distributed throughout the day. This is a clear breach of a secondary criterion. Additionally, there is a minor mathematical inconsistency where the stated 200g protein target doesn't align with the summed macros from individual meals (~214g). While the protein content ultimately meets the 2.5g/kg requirement and caloric intake supports muscle building, the meal count violation is a significant deficiency that prevents a higher score."
+  },
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\nHere is a one-day meal plan for an athlete training for a marathon with a focus on high carbohydrate intake for sustained energy and recovery:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (120g), Fat (85g), Carbs (480g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (120g), honey (20g), and whole milk (250ml). Side of whole wheat toast (60g) with almond butter (15g).\n    * Protein: 18g, Fat: 12g, Carbs: 95g\n\n* **Mid-Morning Snack (10:00 AM):** Sports drink (500ml) with electrolytes and carbohydrates, plus a granola bar (50g).\n    * Protein: 6g, Fat: 8g, Carbs: 75g\n\n* **Lunch (1:00 PM):** Grilled chicken breast (130g) with brown rice (150g cooked), steamed sweet potato (150g), and mixed vegetables (broccoli 100g, carrots 80g) with olive oil (10ml).\n    * Protein: 40g, Fat: 12g, Carbs: 105g\n\n* **Pre-Run Snack (3:30 PM):** White bread sandwich (80g) with jam (30g) and 1% milk (200ml).\n    * Protein: 10g, Fat: 3g, Carbs: 65g\n\n* **Post-Run Recovery Snack (5:30 PM):** Chocolate milk (250ml) with a rice cake (25g) and peanut butter (20g).\n    * Protein: 12g, Fat: 10g, Carbs: 55g\n\n* **Dinner (7:00 PM):** Baked salmon (140g) with pasta (120g cooked), marinara sauce (100g), garlic bread (40g), and side salad with olive oil dressing (15ml).\n    * Protein: 30g, Fat: 28g, Carbs: 75g\n\n* **Evening Snack (9:00 PM):** Greek yogurt (150g) with granola (30g) and berries (80g).\n    * Protein: 14g, Fat: 12g, Carbs: 45g\n\nThis meal plan prioritizes complex and simple carbohydrates to fuel long-distance training, includes adequate protein for muscle recovery, and strategically times nutrients around workouts for optimal performance and recovery.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with high carbohydrate intake for sustained energy and recovery",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus pre/post-training nutrition",
+        "Emphasizes carbohydrates as primary macronutrient (55-65% of calories) with adequate protein for recovery",
+        "Includes timing recommendations aligned with training schedule",
+        "Provides realistic, compact format suitable for a single day"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high carbohydrate intake and sustained energy throughout training and recovery"
+    },
+    "score": 8,
+    "reasoning": "The solution successfully meets all mandatory requirements with a well-structured meal plan that includes daily caloric target, complete macronutrient breakdown, and seven meals with specific foods, portions, and times. The carbohydrate emphasis (60%) aligns perfectly with marathon training needs. However, there are mathematical inconsistencies in the macronutrient calculations that suggest the individual meal macros may not sum correctly to the stated totals. Despite this calculation issue, the meal plan itself is realistic, compact, and appropriately timed around training. The solution addresses all secondary criteria effectively with strategic pre/post-workout nutrition and adequate protein for recovery."
+  },
+  {
+    "output": "# One-Day Meal Plan for Vegetarian Cyclist\n\nHere is a one-day meal plan for an athlete optimizing energy for early morning high-intensity cycling:\n\n* **Calorie Target:** Approximately 2,800 calories\n* **Macronutrient Breakdown:** Protein (105g), Fat (85g), Carbs (385g)\n\n## Meal Plan:\n\n* **Pre-Ride Breakfast (5:30 AM):** Bagel (90g) with almond butter (25g) and banana (100g). Orange juice (240ml).\n    * Protein: 12g, Fat: 10g, Carbs: 75g\n\n* **During Ride (1.5-hour mark):** Energy bar (50g) and sports drink (500ml).\n    * Protein: 5g, Fat: 3g, Carbs: 55g\n\n* **Post-Ride Recovery Snack (8:00 AM):** Smoothie with plant-based protein powder (30g), frozen berries (120g), coconut milk (240ml), and dates (30g).\n    * Protein: 25g, Fat: 8g, Carbs: 50g\n\n* **Mid-Morning Snack (10:30 AM):** Hummus (60g) with pita bread (60g) and carrot sticks (100g).\n    * Protein: 6g, Fat: 4g, Carbs: 30g\n\n* **Lunch (1:00 PM):** Lentil and vegetable stir-fry with tofu (150g), brown rice (80g cooked), mixed vegetables (150g: broccoli, bell peppers, snap peas), and sesame oil (15ml).\n    * Protein: 22g, Fat: 12g, Carbs: 65g\n\n* **Afternoon Snack (4:00 PM):** Trail mix with cashews (30g), raisins (25g), and pumpkin seeds (20g).\n    * Protein: 10g, Fat: 18g, Carbs: 30g\n\n* **Dinner (7:00 PM):** Chickpea curry (200g chickpeas) with quinoa (70g cooked), spinach (100g), coconut milk (120ml), and olive oil (10ml).\n    * Protein: 18g, Fat: 20g, Carbs: 60g\n\n* **Evening Snack (9:30 PM):** Soy yogurt (200g) with granola (40g) and blueberries (80g).\n    * Protein: 7g, Fat: 10g, Carbs: 20g\n\nThis plan emphasizes easily digestible carbohydrates for sustained energy during high-intensity intervals, plant-based proteins for recovery, and strategic timing to fuel performance and support muscle repair.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "75",
+        "goal": "Optimize energy for early morning 2-hour cycling ride with high intensity intervals",
+        "restrictions": "Vegetarian, no dairy"
+      },
+      "solution_criteria": [
+        "Includes pre-ride meal (1-2 hours before) with easily digestible carbs and moderate protein",
+        "Includes mid-ride nutrition strategy for sustained energy during 2-hour effort",
+        "Includes post-ride recovery meal with carbs and protein for muscle repair",
+        "Plan is compact and fits within one day format"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport with specific timing constraints (cyclist with early morning ride) requiring pre-workout fueling, mid-activity nutrition, and post-workout recovery optimization"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively meets all mandatory requirements with precise daily caloric total, complete macronutrient breakdown, and detailed meal specifications including portions and timing. It effectively addresses the secondary criteria by including appropriate pre-ride nutrition (1.5-2 hours before), mid-ride fueling strategy, and post-ride recovery meal. The plan respects both vegetarian and dairy-free restrictions throughout. The main limitation is the assumption about ride start time (7:00 AM implied) which wasn't explicitly stated in the task, though the timing structure is sound for typical early morning cycling. The solution is appropriately compact and well-organized for a one-day format."
+  }
+]
