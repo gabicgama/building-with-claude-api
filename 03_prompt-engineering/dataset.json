@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "75",
+      "goal": "Optimize energy for early morning 2-hour cycling ride with high intensity intervals",
+      "restrictions": "Vegetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Includes pre-ride meal (1-2 hours before) with easily digestible carbs and moderate protein",
+      "Includes mid-ride nutrition strategy for sustained energy during 2-hour effort",
+      "Includes post-ride recovery meal with carbs and protein for muscle repair",
+      "Plan is compact and fits within one day format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport with specific timing constraints (cyclist with early morning ride) requiring pre-workout fueling, mid-activity nutrition, and post-workout recovery optimization"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate intake for sustained energy and recovery",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre/post-training nutrition",
+      "Emphasizes carbohydrates as primary macronutrient (55-65% of calories) with adequate protein for recovery",
+      "Includes timing recommendations aligned with training schedule",
+      "Provides realistic, compact format suitable for a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high carbohydrate intake and sustained energy throughout training and recovery"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle building and strength gains",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 4-5 meals distributed throughout the day",
+      "Each meal contains at least 30g of protein with total daily protein \u22652.5g per kg bodyweight (212.5g minimum)",
+      "Total daily calories support muscle building for an 85kg strength athlete (approximately 3000-3500 calories)",
+      "Meal plan is presented in compact, easy-to-read format suitable for quick reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing high protein distribution across meals and caloric density for muscle building"
+  }
+]
